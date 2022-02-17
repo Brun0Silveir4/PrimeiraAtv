@@ -1,0 +1,26 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+#menu1{
+     list-style: none;
+     padding: 0;
+     background-color: rgb(219, 130, 130);
+}
+#menu1 li{
+    display: inline;   
+}
+#menu1 li a{
+    text-decoration: none;
+    color: rgb(24, 1, 1);
+    padding: 20px;
+    display: inline-block;
+}
+#menu1 li a:hover{
+    background-color: rgb(221, 177, 83);
+    transition: all .6s;
+}
